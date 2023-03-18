@@ -9,11 +9,28 @@ body {
     justify-content: space-between;
 }
 
+sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color:#3882F6;
+    border-style: none;
+    border-radius:5px;
+    height:35px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
 .header {
     color: white;
     background-color: #1F2937;
     display: flex;
     align-items: center;
+    padding: 0 250px;
 }
 
 .header ul {
@@ -35,23 +52,42 @@ a {
     padding-top: 30px;
     padding-bottom: 50px;
     justify-content: center;
+    align-items:center;
     gap: 30px;
+    padding: 75px 250px;
 }
 
 .hero-section .hero {
     display: flex;
-    max-width: 300px;
     flex-direction: column;
+    max-width: 500px;
     align-items: flex-start;
+}
+
+.hero-section .hero h2{
+    font-size: 48px;
+    font-weight: 1000;
+    margin: 0;
 }
 
 .hero-section .placeholder {
     display: flex;
-    height: 200px;
-    width: 300px;
-    background-color: rgb(109, 112, 128);
+    flex-shrink: 0;
+    height: 250px;
+    width: 500px;
+    background-color: #6d747e;
     align-items: center;
     justify-content: center;
+}
+
+.hero-section .hero button{
+    margin-top: 10px;
+}
+
+.media-section h2{
+    font-size: 36px;
+    font-weight: 950;
+    color: #1F2937;
 }
 
 .media-section{
@@ -64,18 +100,24 @@ a {
 
 .media-section .media-cluster {
     display: flex;
-    gap: 30px;
+    gap: 45px;
 }
 
 .media .placeholder{
-    width: 100px;
-    height: 100px;
-    border: 3px solid #3882F6;
-    border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    border: 5px solid #3882F6;
+    border-radius: 18px;
+    margin-bottom: 5px;
 }
 
 .media {
-    max-width: 100px;
+    max-width: 170px;
+    text-align: center;
+}
+
+.media sub{
+    color:#1F2937;
 }
 
 .quote-section{
