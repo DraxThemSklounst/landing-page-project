@@ -22,8 +22,11 @@ a {
 }
 
 .hero-section {
+    background-color: #1F2937;
+    color: white;
     display: flex;
-    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     justify-content: center;
     gap: 30px;
 }
@@ -39,7 +42,30 @@ a {
     display: flex;
     height: 200px;
     width: 300px;
-    background-color: grey;
+    background-color: rgb(109, 112, 128);
     align-items: center;
     justify-content: center;
+}
+
+.media-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-section .media-cluster {
+    display: flex;
+    gap: 30px;
+}
+
+.media .placeholder{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.media {
+    max-width: 100px;
 }
