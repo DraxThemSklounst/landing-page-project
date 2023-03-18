@@ -52,6 +52,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .media-section .media-cluster {
@@ -68,4 +69,28 @@ a {
 
 .media {
     max-width: 100px;
+}
+
+.quote-section{
+    height: 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section div{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section div em{
+    font-size: 36px;
+    font-weight: light;
+}
+
+.quote-section div b{
+    align-self: flex-end;
 }
